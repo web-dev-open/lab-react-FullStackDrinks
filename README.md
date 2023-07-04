@@ -1,7 +1,7 @@
+<img src="https://imgur.com/XOS1Vdh.png"  width="150px" height="150px">
 
-![Root logo](https://imgur.com/Hq8xgzy.png)
 
-# LAB | React RootBeers
+# LAB | React FullStackDrinks
 
   
 
@@ -29,7 +29,7 @@ Our mission here is to create an app to showcase some of the best-handcrafted be
 
 ```shell
 
-$ cd lab-react-rootbeers
+$ cd lab-react-fullstackdrinks
 
 $ npm install
 
