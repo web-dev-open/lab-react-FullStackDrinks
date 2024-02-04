@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* styles.css */
+/* Existing styles ... */
+
+.new-beer-container {
+    padding: 20px;
+  }
+
+  .new-beer {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .new-beer label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .new-beer input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  .new-beer button {
+    width:100%;
+    border-radius:30px;
+    background-color:rgb(14, 180, 202);
+    font-size: 26px;
+    color:white;
+    padding: 20px;
+    border:none;
+  }
+
+  .beer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    width:100vw;
+    height:100vh;
+  }
+  .beer div{
+    margin:25px;
+  } 
+  .beer img{
+    width:70px;
+  }
