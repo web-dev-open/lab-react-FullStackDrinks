@@ -12,8 +12,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/beers" element={<HomePage />} />
-        <Route path="/Allbeers" element={<BeerList />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/beers" element={<BeerList />} />
         <Route path="/beers/:beerId" element={<BeerDetails />} />
         <Route path="/random-beer" element={<RandomBeer />} />
         <Route path="/new-beer" element={<NewBeerForm />} />

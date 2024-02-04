@@ -8,7 +8,7 @@ function HomePage(){
         <div>
         <div className='box'>
         <img src={beersImage} alt='beer_pic'></img>
-        <Link to="/Allbeers"><h1>All Beers</h1></Link>
+        <Link to="/beers"><h1>All Beers</h1></Link>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vulputate lorem ac dolor euismod hendrerit. Maecenas lacinia tempus massa, at iaculis arcu. Vestibulum a eros ut sapien porttitor finibus. Curabitur risus velit, laoreet id molestie ut, placerat non quam. Proin posuere enim at massa porttitor volutpat. Vivamus vel scelerisque nulla. Proin blandit massa a rhoncus imperdiet. Suspendisse ac dapibus lorem. Sed posuere ullamcorper lorem. Nullam quis iaculis leo.</p>
       </div>
 

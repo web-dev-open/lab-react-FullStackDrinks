@@ -9,7 +9,7 @@ const BeerList = () => {
   useEffect(() => {
     // Fetch data from the API
     fetch(`https://ih-beers-api2.herokuapp.com/beers/search?q=${searchQuery}`)
-      .then((response) => response.json())
+      .then((response) => response.json() )
       .then((data) => setBeers(data))
       .catch((error) => console.error('Error fetching data:', error));
   }, [searchQuery]);
@@ -23,7 +23,7 @@ const BeerList = () => {
       <Navbar/>
       <div>
       <h1>All Beers</h1>
-      <input type="text" placeholder="Search for beers" value={searchQuery} onChange={handleSearchChange} />
+      <input type="text" placeholder="Search for beers" onChange={handleSearchChange} />
       <div className='beer'>
         {beers.map((beer) => (
           <div key={beer.id}>
