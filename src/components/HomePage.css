@@ -1,0 +1,42 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.main-element {
+    margin-bottom: 30px;
+}
+  
+.main-element img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+  
+  .main-element h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.main-element p {
+    text-align: center;
+    color: #666;
+}
+  
+#all-beers {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+  
+#random-beer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+  
+#new-beer {
+    background-color: #e0e0e0;
+    padding: 20px;
+}
