@@ -1,0 +1,21 @@
+nav{
+    padding:50px;
+    background-color: aqua;
+    border: 2px solid rgb(40, 45, 47);
+
+}
+
+link{
+    text-decoration: none;
+    
+}
+
+.Home{
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+}
+.Home img{
+    width:50px;
+    
+}
