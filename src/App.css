@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Centering the Home Icons */
+.home-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+  
+}
+
+/* Styling Home Page Cards */
+.home-card {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  transition: transform 0.2s;
+}
+.normal-text{
+  color: black;
+  text-decoration: none;
+}
+.normal-text:hover {
+  transform: scale(1.05);
+}
+
+.home-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.home-card h2 {
+  margin: 10px 0;
+}
+
+.home-card p {
+  color: #666;
+}
+
+/* Beer List Styling */
+.beer-list-container {
+  padding: 20px;
+}
+
+.beer-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.beer-card img {
+  width: 80px;
+  height: auto;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.beer-card h3 {
+  margin: 0;
+}
+
+/* Beer Details Page */
+.beer-details {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.beer-details img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 50px auto;
+  display: block;
+}
+
+.beer-details h1 {
+  margin: 10px 0;
+}
+
+/* Form Styling */
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container label {
+  font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.form-container button:hover {
+  background: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.search{
+  width: 70%;
+  margin: 20px auto;
+  padding: 10px;
+  display: block;
 }
